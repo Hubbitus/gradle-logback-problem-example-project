@@ -1,16 +1,13 @@
-package info.hubbitus.gradle;
+package info.hubbitus.gradle
 
-import ch.qos.logback.classic.LoggerContext;
-import ch.qos.logback.classic.joran.JoranConfigurator;
-import ch.qos.logback.classic.util.LogbackMDCAdapter;
-import ch.qos.logback.core.Context;
-import ch.qos.logback.core.joran.spi.JoranException;
-import ch.qos.logback.core.util.StatusPrinter;
-import groovy.util.logging.Slf4j;
-import org.slf4j.ILoggerFactory;
-import org.slf4j.Logger;
-import org.slf4j.MDC;
-import org.slf4j.impl.StaticMDCBinder;
+import ch.qos.logback.classic.LoggerContext
+import ch.qos.logback.classic.joran.JoranConfigurator
+import ch.qos.logback.core.Context
+import ch.qos.logback.core.joran.spi.JoranException
+import ch.qos.logback.core.util.StatusPrinter
+import org.slf4j.Logger
+import org.slf4j.MDC
+import org.slf4j.impl.StaticMDCBinder
 
 public class ExtLog {
 	public static void sayHello() {
