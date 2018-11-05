@@ -1,0 +1,15 @@
+
+// https://docs.gradle.org/current/userguide/organizing_gradle_projects.html#sec:build_sources
+
+ext{
+	logbackVersion = '1.2.3'
+	logstashAppenderEncoderVersion = '5.2'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile "ch.qos.logback:logback-classic:${logbackVersion}"
+}
