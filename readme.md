@@ -17,3 +17,7 @@ SLF4J: See http://www.slf4j.org/codes.html#no_static_mdc_binder for further deta
 ```
 
 As you see there `LogbackMDCAdapter` found, but not in scope of `MDC.<cinit>`!
+
+# Links
+
+1. Gradle forum question: https://discuss.gradle.org/t/gradle-logback-external-logging-problem-with-mdc-initializations/29354
